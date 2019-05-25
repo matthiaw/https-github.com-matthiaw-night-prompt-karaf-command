@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1558818942375
+Build-Jdk: 1.8.0_211
+Built-By: matthias.wegner
+Bundle-Description: Provides the shell commands for night-prompt
+Bundle-ManifestVersion: 2
+Bundle-Name: Night-Prompt :: Shell Commands
+Bundle-SymbolicName: karaf-command
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: night.prompt.karaf.command;version="0.0.1.SNAPSHOT";uses
+ :="org.apache.karaf.shell.api.action,org.apache.karaf.shell.api.action.
+ lifecycle"
+Import-Package: org.apache.karaf.shell.api.action;version="[4.0,5)",org.
+ apache.karaf.shell.api.action.lifecycle;version="[4.0,5)"
+Karaf-Commands: night.prompt.karaf.command*
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.2.0.201903051501
